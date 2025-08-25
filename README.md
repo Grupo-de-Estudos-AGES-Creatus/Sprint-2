@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Bem-vindo ao repositório da Sprint 2 do nosso grupo de estudo! Nesta sprint, vamos aprender os conceitos básicos de Backend utilizando Express.js, Prisma e SQLite. O objetivo é desenvolver uma API para filmes, onde o usuário poderá criar, editar e deletar filmes, além de realizar reviews para um filme específico.
+Bem-vindo ao repositório da Sprint 2 do nosso grupo de estudo! Nesta sprint, vamos aprender os conceitos básicos de Backend utilizando Express.js. O objetivo é desenvolver uma API para filmes, onde o usuário poderá criar, editar e deletar filmes, além de realizar reviews para um filme específico.
 
 A partir da API de Filmes, cada filme poderá ter suas informações básicas, como título, descrição, diretor, ano de lançamento e gênero. Para cada filme, os usuários poderão adicionar suas análises e avaliações por meio de reviews, que serão vinculadas ao filme específico através do seu ID. Esse cruzamento entre filmes e suas reviews permitirá que os usuários explorem as avaliações de cada filme💡✨
 
@@ -13,8 +13,6 @@ A partir da API de Filmes, cada filme poderá ter suas informações básicas, c
 Aqui você encontrará links e referências para facilitar o aprendizado:
 
 - **Express.js**: [Tutorial do Express.js](https://expressjs.com/pt-br/) 🎥
-- **Prisma**: [Tutorial do Prisma](https://www.prisma.io/docs/getting-started/quickstart-sqlite) 🎥
-- **SQLite**: [Documentação do SQLite](https://www.sqlite.org/docs.html) 📖
 
 ---
 
@@ -37,7 +35,7 @@ Desenvolver uma API que permita ao usuário:
 
 - **CRUD** CRUD para filmes
 - **CRUD** para reviews de filmes
-- Integração com **SQLite** utilizando **Prisma**
+- Armazenamento de dados **em memória** utilizando **arrays de objetos**
 - Validação de dados com **middlewares** (opcional)
 
 ---
@@ -107,20 +105,47 @@ Código de 3 dígitos que indica o resultado da requisição:
 
 ---
 
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Node.js** com **Express.js**
-- **Prisma ORM**
-- **SQLite** (ou **Postgres**, se preferir)
 - **JavaScript** (ou **TypeScript**, se preferir)
+
+---
+
+## 🎯 O que você deve aprender ao final desta Sprint
+
+Ao concluir esta sprint, você deverá ter entendido os seguintes pontos fundamentais:
+
+1. **Conceito de APIs RESTful**  
+   - O que significa REST e como estruturar rotas de forma organizada e padronizada.
+
+2. **Métodos HTTP**  
+   - Saber quando usar `GET`, `POST`, `PUT`, `PATCH` e `DELETE`.
+   - Entender como esses métodos se relacionam com operações CRUD.
+
+3. **Mensagens HTTP**  
+   - Estrutura básica de uma requisição (headers, URL, body, params, query).  
+   - Estrutura básica de uma resposta (status code, headers, body).  
+
+4. **Status Codes**  
+   - Interpretar códigos de sucesso, erro do cliente e erro do servidor.  
+   - Retornar o código adequado em cada situação.
+
+5. **Dados em Memória**  
+   - Como armazenar informações em arrays de objetos.  
+   - Noções de persistência (limitações de usar apenas memória).
+
+6. **Boas Práticas de Desenvolvimento**  
+   - Organização de rotas, middlewares e controllers.  
+   - Separação de responsabilidades no código.  
+   - Clareza na documentação para outros utilizarem sua API.
+
+---
 
 ## 🎯 Próximos Passos
 
-- Adicionar testes unitários 🧪
-- Implementar autenticação e autorização 🔒
-- Melhorar a documentação da API 📖
+- Se conectar com um banco de dados
+- Documentação das rotas
 
 ---
 
